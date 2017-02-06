@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Kernel Tasker</string>
+
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_activity_change">Parametreler</string>
+    <string name="CpuParam"><u>İşlemci Parametreleri</u></string>
+    <string name="MemoryParam"><u>Hafıza Parameters</u></string>
+    <string name="cpuvoltage"><u>CPU Voltaj</u></string>
+    <string name="lpvoltage"><u>LP Voltaj</u></string>
+    <string name="ramvoltage"><u>RAM Voltaj</u></string>
+    <string name="gpuvoltage"><u>GPU Voltaj</u></string>
+    <string name="title_activity_activity__tasker">Görevler</string>
+    <string name="title_activity_settingactivity">Ayarlar</string>
+    <string name="devicestatus"><u>Cihaz durumu</u></string>
+    <string name="devicetimein"><u>CPU frekansları</u></string>
+    <string name="notworkroot">Bu uygulama root olmadan çalışmaz</string>
+    <string name="cpumaxval">Cpu nun en yüksek hızı</string>
+    <string name="cpuminval">Cpu nun en düşük hızı</string>
+    <string name="cpugovernor">Cpu hız denetleyicisi</string>
+    <string name="gpugovernor">GPU denetleyicisi</string>
+    <string name="gpu2dgovernor">GPU 2d hız denetleyicisi</string>
+    <string name="gpu3dgovernor">GPU 3d hız denetleyicisi</string>
+    <string name="IOval">Giriş/Çıkış zamanlayıcısı</string>
+    <string name="TCPval">TCP</string>
+    <string name="readahead">Read Ahead Buffer</string>
+    <string name="ffc1val">Hızla şarja zorla</string>
+    <string name="gpuclock">Gpu nun en yüksek hızı</string>
+    <string name="gpu2dclock">Gpu nun en yüksek 2d hızı</string>
+    <string name="gpu3dclock">Gpu nun en yüksek 3d hızı</string>
+    <string name="screenoffmax">Ekran kapalı olduğunda cpu nun en düşük hızı</string>
+    <string name="applyval">Uygula</string>
+    <string name="HotplugParam"><u>Hotplug Parametreleri</u></string>
+    <string name="saveval">Kaydet</string>
+    <string name="ffc2val">Usb den daha hızlı şarj edersiniz fakat dosyalara erişemezsiniz</string>
+    <string name="fsyncval">Dosyalarınızı korur</string>
+    <string name="welcomeval">Hoşgeldiniz</string>
+    <string name="showtoastval">Uyarı göster</string>
+    <string name="drawer_open">Aç</string>
+    <string name="kucuktur">\u003C</string>
+    <string name="buyuktur">\u003E</string>
+    <string name="drawer_close">Kapat</string>
+    <string name="GPUParam"><u>GPU Parametreleri</u></string>
+    <string name="VoltageParam"><u>Voltage Parametreleri</u></string>
+    <string name="showtoastacval">Bir profil oluşturulduğunda yada uygulandığında uyarı göster</string>
+    <string name="showtaskerval">Önce görevleri göster</string>
+    <string name="showtaskeracval">İlk açılışta ana menüyü atlayarak görevleri aç</string>
+    <string name="autoactval">Görevleri otomatik aktif et</string>
+    <string name="autoactacval">Görevler oluşturulduğunda aktifleştirilir</string>
+    <string name="darkthemeval">Karanlık tema</string>
+    <string name="darkthemeacval">Gözleriniz yanıyorsa deneyin :)</string>
+    <string name="donateval">Bağış yapın</string>
+    <string name="donateacval">Uygulamamızı geliştirmemiz için yardım edin</string>
+    <string name="hideparameter">Parametreleri gizle</string>
+    <string name="hideparameterac">Desteklenmeyen parametre sayfalarını gizle.</string>
+    <string name="servicestatusval"><u>Servis durumu</u></string>
+    <string name="servicerunning">Servis çalışıyor</string>
+    <string name="drawerhome">Durum</string>
+    <string name="drawertweaker">Parametreler</string>
+    <string name="drawertasker">Görevler</string>
+    <string name="drawersettings">Ayarlar</string>
+    <string name="drawerabout">Hakkında</string>
+    <string name="rateusvalue">Bizi oylayın</string>
+    <string name="rateusvalueac">Eğer projemizi beğendiyseniz oylayın</string>
+    <string name="dt2w">Çift dokunma ile uyandır</string>
+    <string name="s2w">Kaydırarak uyandır</string>
+    <string name="t2w">Dokunarak uyandır</string>
+    <string name="servicenotrunning">Servis çalışmıyor.</string>
+    <string name="pleasewait">Lütfen bekleyin</string>
+    <string-array name="menuarray">
+        <item>Düzenle</item>
+        <item>Yeniden adlandır</item>
+        <item>Sil</item>
+        <item>Açılma eylemini değiştir</item>
+    </string-array>
+    <string name="WakeParam">Uyanma parametreleri</string>
+    <string name="wrongvalue">Hatalı giriş(birincisi daha erken)</string>
+    <string name="renametask">Yeniden adlandır</string>
+    <string name="taskname">Görev adı</string>
+    <string name="cannotempty">İsim yeri boş olamaz</string>
+    <string name="chooseaction">Ne olduğunda uygulansın</string>
+    <string-array name="optionarray">
+        <item>Ekran açık olduğunda</item>
+        <item>Ekran kapalı olduğunda</item>
+        <item>Uygulama açıldığında</item>
+        <item>Telefon açıldığında</item>
+        <item>Batarya düşük olduğunda</item>
+        <item>Aktif edildiğinde</item>
+        <item>Zamanlayıcı ile</item>
+        <item>Zamanlayıcı ile(başlangıç ve bitişle)</item>
+        <item>Şarj edilirken</item>
+        <item>Her zaman</item>
+    </string-array>
+    <string name="pleasewaitmes">Sistem dosyaları okunuyor</string>
+    <string name="settingsaved">Ayarlar uygulandı!</string>
+    <string name="profileapply">Uygulanan profil: </string>
+    <string name="title_activity_ad_mob">AdMobActivity</string>
+    <string name="increase">Arttır</string>
+    <string name="decrease">Azalt</string>
+    <string name="showxdaval">Xda konusunu aç</string>
+    <string name="showxdaacval">Yorum atmakta özgürsünüz :)</string>
+    <string name="addtaskval">Sağa doğru çekerek menüyü açabilirsiniz.</string>
+
+    <string name="shareval">Paylaş</string>
+    <string name="shareacval">Uygulamayı arkadaşlarınla paylaş</string>
+
+
+    <string name="hotplugenable">Hotplug ı aktif et</string>
+    <string name="hotplugecoenable">Hotplug eko mod</string>
+    <string name="hotplugtouchboostenable">Dokunduğunuzda cpunun hız yükseltmesi</string>
+    <string name="hotplugdebugenable">Hotplug debugging aktif et</string>
+    <string name="hotplugcpusboosted">Hotplug hızlandırılmış cpular</string>
+    <string name="hotplugmaxcpus">Maximum aktif olacak çekirdek sayısı</string>
+    <string name="hotplugmincpus">Minimum aktif olacak çekirdek sayısı</string>
+    <string name="hotplugboostduration">Cpu hızının yükselme süresi</string>
+    <string name="hotplugdownduration">Cpu hızının azalma süresi</string>
+    <string name="hotplugmaxcpusscreenoff">Ekran kapalı olduğunda aktif olabilecek en fazla çekirdek sayısı</string>
+    <string name="hotplugmaxfreqscreenoff">Ekran kapalı olduğunda cpunun en yüksek hızı</string>
+    <string name="hotplugtouchcores">Dokunulduğunda aktif edilecek çekirdekler</string>
+    <string name="hotplugmintimecpuonline">Çekirdeğin inaktif olma süresi</string>
+    <string name="hotplughysteresis"></string>
+    <string name="hotplugsuspendenable"></string>
+    <string name="hotplugmaxcpususpend"></string>
+    <string name="hotplugdefertime"></string>
+    <string name="hotplugdefersampling"></string>
+    <string name="hotplugthreshold"></string>
+    <string name="hotplugshift"></string>
+    <string name="hotplugfirstlevel"></string>
+    <string name="hotplugtimercnt"></string>
+    <string name="hotplugmaxloadcounter"></string>
+    <string name="hotplughighloadcounter"></string>
+    <string name="hotplugtimer"></string>
+    <string name="hotplugsuspend"></string>
+    <string name="hotplugupdaterate"></string>
+    <string name="hotplugfastlaneload"></string>
+    <string name="hotplugofflineload"></string>
+    <string name="hotplughpioisbusy"></string>
+    <string name="hotplugsuspendfreq"></string>
+    <string name="hotplugsuspendmaxfreq"></string>
+    <string name="hotplugsuspendmaxcpus"></string>
+    <string name="hotplugioisbusy"></string>
+    <string name="hotplughistorysize"></string>
+    <string name="hotplugloadthreshold"></string>
+    <string name="hotplugfastlaneminfreq"></string>
+    <string name="OK">Tamam</string>
+    <string name="nosupport">Kerneliniz desteklemiyor</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_holder">FragmentHolderActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_parameters">activity_parameters</string>
+    <string name="title_activity_root_check">RootCheckActivity</string>
+</resources>

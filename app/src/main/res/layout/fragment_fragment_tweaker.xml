@@ -1,0 +1,78 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+        <FrameLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:fab="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <com.astuetz.PagerSlidingTabStrip
+                    android:id="@+id/materialTabHost"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:background="?attr/colorPrimary"
+                    android:textColor="#FFFFFF"
+                    />
+                <android.support.v4.view.ViewPager
+
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                </android.support.v4.view.ViewPager>
+
+
+
+
+
+
+            </LinearLayout>
+            <com.melnykov.fab.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:src="@drawable/apply12"
+                fab:fab_colorNormal="#F44336"
+                fab:fab_colorRipple="#FFFFFF"
+                fab:fab_colorPressed="#B71C1C"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/listView"
+                android:layout_alignEnd="@+id/listView"
+                android:layout_marginBottom="9dp"
+                android:layout_marginRight="7dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:alpha="0.8"
+                android:id="@+id/recylerliner">
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <!-- The main content view -->
+
+
+
+    <!-- The navigation drawer -->
+
+
+
+
+
+

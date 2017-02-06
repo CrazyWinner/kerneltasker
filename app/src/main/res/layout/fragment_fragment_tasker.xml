@@ -1,0 +1,58 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/content_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:fab="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            tools:context="com.dhome.crazywinner.appdeneme.Activity_Tasker"
+            android:id="@+id/relativee">
+
+            <LinearLayout
+                android:id="@+id/adviewLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/recyclerview"
+
+
+                />
+
+
+
+         <com.melnykov.fab.FloatingActionButton
+             android:id="@+id/fabMenu"
+             android:layout_width="wrap_content"
+             fab:fab_colorNormal="#F44336"
+             android:src="@drawable/plus"
+             fab:fab_colorPressed="#B71C1C"
+             android:layout_alignParentBottom="true"
+             android:layout_gravity="bottom|right"
+             android:layout_alignRight="@+id/recyclerview"
+             android:layout_alignEnd="@+id/recyclerview"
+             android:layout_marginBottom="9dp"
+             android:layout_marginRight="7dp"
+             android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>

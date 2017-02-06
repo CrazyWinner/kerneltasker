@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.dhome.crazywinner.appdeneme"
+        productFlavors {
+            // Define separate dev and prod product flavors.
+            dev {
+                // dev utilizes minSDKVersion = 21 to allow the Android gradle plugin
+                // to pre-dex each module and produce an APK that can be tested on
+                // Android Lollipop without time consuming dex merging processes.
+                minSdkVersion 21
+            }
+            prod {
+                // The actual minSdkVersion for the application.
+                minSdkVersion 15
+            }}
+        targetSdkVersion 24
+        versionCode 19
+        versionName "2.0"
+
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    repositories {
+        mavenCentral()
+        maven {
+            repositories {
+                url 'https://oss.sonatype.org/content/repositories/releases/'
+            }
+        }
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.badoo.mobile:android-weak-handler:1.1'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.heinrichreimersoftware:material-intro:1.5.5'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.heinrichreimersoftware:material-drawer:2.3.2'
+    compile 'com.google.android.gms:play-services:9.0.2'
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
+
+
+
+}

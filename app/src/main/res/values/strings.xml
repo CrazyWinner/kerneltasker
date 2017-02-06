@@ -1,0 +1,172 @@
+<resources>
+    sources>
+    <string name="app_name">Kernel Tasker</string>
+    <string name="OK">OK</string>
+    <string name="wrongvalue">Wrong values(First one is later)</string>
+    <string-array
+        name="menuarray">
+        <item>Edit</item>
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Change action</item>
+    </string-array>
+    <string-array
+        name="optionarray">
+        <item>Screen is on</item>
+        <item>Screen is off</item>
+        <item>Launching app</item>
+        <item>Boot completed</item>
+        <item>Battery low</item>
+        <item>Activated</item>
+        <item>Time scheduler</item>
+        <item>Time scheduler(With from,to)</item>
+        <item>Charging</item>
+        <item>Always</item>
+    </string-array>
+    <string name="nosupport">No support from your kernel</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_change">Parameters</string>
+    <string name="CpuParam"><u>CPU Parameters</u></string>
+    <string name="HotplugParam"><u>Hotplug Parameters</u></string>
+    <string name="MemoryParam"><u>Memory Parameters</u></string>
+    <string name="GPUParam"><u>GPU Parameters</u></string>
+    <string name="VoltageParam"><u>Voltage Parameters</u></string>
+    <string name="cpuvoltage"><u>CPU Voltages</u></string>
+    <string name="lpvoltage"><u>LP Voltages</u></string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="kucuktur">\u003C</string>
+    <string name="buyuktur">\u003E</string>
+    <string name="ramvoltage"><u>RAM Voltages</u></string>
+    <string name="gpuvoltage"><u>GPU Voltages</u></string>
+    <string name="title_activity_activity__tasker">Tasker</string>
+    <string name="title_activity_settingactivity">Settings</string>
+    <string name="devicestatus"><u>Device Status</u></string>
+    <string name="devicetimein"><u>CPU freqs time</u></string>
+    <string name="notworkroot">This application wont work without root</string>
+    <string name="cpumaxval">CPUs maximum clock speed</string>
+    <string name="cpuminval">CPUs minimum clock speed</string>
+    <string name="cpugovernor">CPU speed management</string>
+    <string name="gpugovernor">GPU speed management</string>
+    <string name="gpu2dgovernor">GPU 2D speed management</string>
+    <string name="gpu3dgovernor">GPU 3D speed management</string>
+    <string name="IOval">In/out scheduler</string>
+    <string name="TCPval">TCP</string>
+    <string name="screenoffmax">CPUs maximum speed when screen is off</string>
+    <string name="readahead">Read Ahead Buffer</string>
+    <string name="ffc1val">Force Fast Charge</string>
+    <string name="gpuclock">GPUs maximum clock speed</string>
+    <string name="gpu2dclock">GPUs maximum 2D clock speed</string>
+    <string name="gpu3dclock">GPUs maximum 2D clock speed</string>
+    <string name="applyval">Apply</string>
+    <string name="saveval">Save</string>
+    <string name="ffc2val">Fast charge with USB but you cannot use file management</string>
+    <string name="fsyncval">Dynamic file sync, protect your files from corrupting</string>
+    <string name="welcomeval">Welcome</string>
+    <string name="showtoastval">Show Toast</string>
+    <string name="showtoastacval">Show toast on profile created or changed</string>
+    <string name="showtaskerval">Show Tasker first</string>
+    <string name="showtaskeracval">On launch skip home and show tasker</string>
+    <string name="showxdaval">Open XDA thread</string>
+    <string name="showxdaacval">Feel free to comment :)</string>
+    <string name="hideparameter">Hide parameters</string>
+    <string name="hideparameterac">Hide unsupporting parameter pages.</string>
+    <string name="autoactval">Auto active task</string>
+    <string name="autoactacval">Active tasks on create</string>
+    <string name="darkthemeval">Dark Theme</string>
+    <string name="darkthemeacval">If your eyes are burning try this :)</string>
+    <string name="rateusvalue">Rate us</string>
+    <string name="rateusvalueac">If you like our project please rate us</string>
+    <string name="donateval">Donate to us</string>
+    <string name="donateacval">Help us to improve our projects</string>
+    <string name="shareval">Share</string>
+    <string name="shareacval">Share app with your friends</string>
+    <string name="servicestatusval"><u>Service Status</u></string>
+    <string name="servicerunning">Service is running</string>
+    <string name="drawerhome">Home</string>
+    <string name="drawertweaker">Tweaker</string>
+    <string name="drawertasker">Tasker</string>
+    <string name="drawersettings">Settings</string>
+    <string name="drawerabout">About</string>
+    <string name="servicenotrunning">Service is not running</string>
+    <string name="pleasewait">Please wait</string>
+    <string name="pleasewaitmes">Reading system files</string>
+    <string name="dt2w">Double tap to wake</string>
+    <string name="s2w">Swipe to wake</string>
+    <string name="t2w">Touch to wake</string>
+    <string name="WakeParam">Waking parameters</string>
+    <string name="renametask">Rename</string>
+    <string name="taskname">Task name</string>
+    <string name="cannotempty">Name cannot be blank</string>
+    <string name="chooseaction">Choose action</string>
+
+    <string name="settingsaved">Settings saved!</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="profileapply">Profile applied: </string>
+    <string name="addtaskval">You can add task or change your kernel config by swiping to right.</string>
+    <string name="title_activity_ad_mob">AdMobActivity</string>
+
+
+    <string name="hotplugenable">Enable hotplug</string>
+    <string name="hotplugecoenable">Hotplugs eco mode</string>
+    <string name="hotplugtouchboostenable">Boost your cpus on touch</string>
+    <string name="hotplugdebugenable">Enable hotplugs debugging</string>
+    <string name="hotplugcpusboosted">Hotplug boosted cpus</string>
+    <string name="hotplugmaxcpus">Maximum active CPU core count</string>
+    <string name="hotplugmincpus">Minimum active CPU core count</string>
+    <string name="hotplugboostduration">CPU freq boost duration</string>
+    <string name="hotplugdownduration">CPU freq down duration</string>
+    <string name="hotplugmaxcpusscreenoff">Max CPU core count when screen is off</string>
+    <string name="hotplugmaxfreqscreenoff">Max CPU freq when screen is off</string>
+    <string name="hotplugtouchcores">Active cores on touch</string>
+    <string name="hotplugmintimecpuonline">Cores minimum time to go offline</string>
+    <!-- I dont know strings blow this please fill them if you can -->
+    <string name="hotplughysteresis"></string>
+    <string name="hotplugsuspendenable"></string>
+    <string name="hotplugmaxcpususpend"></string>
+    <string name="hotplugdefertime"></string>
+    <string name="hotplugdefersampling"></string>
+    <string name="hotplugthreshold"></string>
+    <string name="hotplugshift"></string>
+    <string name="hotplugfirstlevel"></string>
+    <string name="hotplugtimercnt"></string>
+    <string name="hotplugmaxloadcounter"></string>
+    <string name="hotplughighloadcounter"></string>
+    <string name="hotplugtimer"></string>
+    <string name="hotplugsuspend"></string>
+    <string name="hotplugupdaterate"></string>
+    <string name="hotplugfastlaneload"></string>
+    <string name="hotplugofflineload"></string>
+    <string name="hotplughpioisbusy"></string>
+    <string name="hotplugsuspendfreq"></string>
+    <string name="hotplugsuspendmaxfreq"></string>
+    <string name="hotplugsuspendmaxcpus"></string>
+    <string name="hotplugioisbusy"></string>
+    <string name="hotplughistorysize"></string>
+    <string name="hotplugloadthreshold"></string>
+    <string name="hotplugfastlaneminfreq"></string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_holder">FragmentHolderActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_parameters">activity_parameters</string>
+    <string name="title_activity_root_check">RootCheckActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

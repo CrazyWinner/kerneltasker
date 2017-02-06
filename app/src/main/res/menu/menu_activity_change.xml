@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dhome.crazywinner.appdeneme.Activity_change">
+
+    <item
+        android:id="@+id/optionnext"
+        android:title="Next"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item  android:title="Previous"
+        android:id="@+id/optionprev"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:checkable="true"
+        android:id="@+id/optionsolid"
+
+        android:title="Solid"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+
+        android:id="@+id/optionsetimage"
+        android:title="Set Image"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

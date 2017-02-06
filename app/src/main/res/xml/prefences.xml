@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="General">
+    <CheckBoxPreference
+        android:key="mysettings.showtoast"
+        android:title="@string/showtoastval"
+        android:summary="@string/showtoastacval"
+        android:defaultValue="true"/>
+    <CheckBoxPreference
+        android:key="mysettings.activeon"
+        android:title="@string/autoactval"
+        android:summary="@string/autoactacval"
+        android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:key="mysettings.shownoti"
+        android:title="Show notification"
+        android:summary="Show a notification about current profile"
+        android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:key="mysettings.hideparameter"
+        android:title="@string/hideparameter"
+        android:summary="@string/hideparameterac"
+        android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:title="@string/darkthemeval"
+        android:summary="@string/darkthemeacval"
+        android:key="mysettings.darkmode"
+        android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Backup and restore">
+        <Preference
+        android:title="Export profiles"
+        android:key="mysettings.backup"
+        android:summary="Backup your profiles">
+
+    </Preference>
+        <Preference
+            android:title="Import profiles"
+            android:key="mysettings.restore"
+            android:summary="Restore your profiles">
+
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="External links">
+        <Preference
+            android:title="@string/showxdaval"
+            android:summary="@string/showxdaacval"
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://forum.xda-developers.com/android/apps-games/app-kernel-tasker-1-0-t3055727"
+                />
+
+        </Preference>
+        <Preference
+            android:title="@string/shareval"
+            android:key="mysettings.share"
+            android:summary="@string/shareacval">
+
+            </Preference>
+
+        <Preference
+            android:title="@string/rateusvalue"
+            android:summary="@string/rateusvalueac">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="market://details?id=com.dhome.crazywinner.appdeneme"
+                /></Preference>
+        <Preference
+            android:title="@string/donateval"
+            android:summary="@string/donateacval"
+
+
+            >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=RJ8ZCKSWTHUB6"
+                />
+
+        </Preference>
+
+
+
+        </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Version"
+        >
+
+        <Preference
+            android:key="mysettings.version"
+            android:title="Version"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorCard" format="color" />
+    <attr name="colorCardTers" format="color" />
+    <attr name="windowBackgroundColor" format="color"/>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+</resources>

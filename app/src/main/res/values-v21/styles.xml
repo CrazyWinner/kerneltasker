@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+
+    >
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar"
+
+        >
+
+
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorCard">@color/cardview_light_background</item>
+        <item name="windowBackgroundColor">@color/background_material_light</item>
+        <item name="android:statusBarColor">#B71C1C</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorCardTers">@color/cardview_dark_background</item>
+
+
+
+    </style>
+
+
+
+    <style name="AppTheme2" parent="AppTheme.Base2"/>
+
+    <style name="AppTheme.Base2" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorCardTers">@color/cardview_light_background</item>
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorCard">@color/cardview_dark_background</item>
+        <item name="windowBackgroundColor">@color/background_material_dark</item>
+        <item name="android:statusBarColor">#B71C1C</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+
+
+
+    </style>
+
+
+</resources>
